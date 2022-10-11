@@ -68,7 +68,7 @@ header a {
 }
 
 /* new workout form */
-/* label,
+label,
 input {
   display: block;
 }
@@ -97,4 +97,7 @@ div.error {
   color: var(--error);
   border-radius: 4px;
   margin: 20px 0;
-} */
+}
+input.error {
+  border: 1px solid var(--error);
+}
